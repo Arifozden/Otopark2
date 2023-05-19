@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Otopark</title>
+  <script src="index.js"></script>
+</head>
+<body><h1>Tasit Kayit</h1>
+<table>
+  <tr>
+    <td>TC</td><td>Ad</td><td>Adres</td>
+  </tr>
+  <tr>
+    <td><input type="text" id="tc"></td>
+    <td><input type="text" id="ad"></td>
+    <td><input type="text" id="adres"></td>
+  </tr>
+  <tr>
+    <td>Plaka</td><td>Marka</td><td>Model</td>
+  </tr>
+  <tr>
+    <td><input type="text" id="plaka"></td>
+    <td><input type="text" id="marka"></td>
+    <td><input type="text" id="model"></td>
+  </tr>
+</table>
+<button onclick="tasitKayit()">Kaydet</button>
+<br>
+Tum arabalar:
+<div id="arabalar"></div>
+<button onclick="hepsiniSil()">Kayitlari temizle</button>
+</body>
+</html>
